@@ -1,0 +1,56 @@
+{
+  "mod_elements": [
+    {
+      "name": "ShadowBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shadowoftheice/block/ShadowBlockBlock.java",
+          "src/main/resources/assets/shadow_of_the_ice/blockstates/shadow_block.json",
+          "src/main/resources/data/shadow_of_the_ice/loot_tables/blocks/shadow_block.json",
+          "src/main/resources/assets/shadow_of_the_ice/models/block/shadow_block.json",
+          "src/main/resources/assets/shadow_of_the_ice/models/item/shadow_block.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:ShadowBlock"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:ShadowBlock"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.shadow_of_the_ice.shadow_block": "Shadow Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "shadow_of_the_ice",
+    "modName": "Shadow Of The Ice",
+    "version": "1.0.0",
+    "author": "gambi, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.shadowoftheice"
+  },
+  "mcreatorVersion": 202400229712
+}

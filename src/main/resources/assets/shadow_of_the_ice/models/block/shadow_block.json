@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "shadow_of_the_ice:block/dark_shadow_0_0",
+    "particle": "shadow_of_the_ice:block/dark_shadow_0_0"
+  },
+  "render_type": "solid"
+}
